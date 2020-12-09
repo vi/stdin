@@ -12,7 +12,7 @@ struct Opts {
     #[argh(option,short='g')]
     group: i64,
 
-    /// oo not poll for updated for the bot, start only sending task
+    /// do not poll for updated for the bot, start only sending task
     #[argh(switch, short='n')]
     inhibit_updates: bool,
 }
