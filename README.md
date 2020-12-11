@@ -7,9 +7,10 @@ Usage: stdinbot <token_file> -g <group> [-n]
 Simple Telegram bot for posting each line read from stdin to a Telegram group
 
 Options:
-  -g, --group       telegram group ID to send all stdline lines to
+  -g, --group       telegram group ID to send all stdin lines to
   -n, --inhibit-updates
-                    do not poll for updated for the bot, start only sending task
+                    do not poll for updates for the bot, start only the message
+                    sending task
   --help            display usage information
 ```
 

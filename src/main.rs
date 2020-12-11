@@ -8,11 +8,11 @@ struct Opts {
     #[argh(positional)]
     token_file: std::path::PathBuf,
 
-    /// telegram group ID to send all stdline lines to
+    /// telegram group ID to send all stdin lines to
     #[argh(option,short='g')]
     group: i64,
 
-    /// do not poll for updated for the bot, start only sending task
+    /// do not poll for updates for the bot, start only the message sending task
     #[argh(switch, short='n')]
     inhibit_updates: bool,
 }
